@@ -3,7 +3,8 @@ import os
 import argparse
 
 client = OpenAI()
-
+api_key = os.getenv("OPENAI_API_KEY")
+MAX_INPUT_LENGTH = 12
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--input" , "-i", type = str, required=True)
@@ -16,7 +17,7 @@ def main():
         raise ValueError("Input must be under 12 tokens !")
 
 def validate_length(prompt: str) -> bool:
-    return len(prompt) <= 12
+    return len(prompt) <= MAX_INPUT_LENGTH
 
 def generate_response(prompt : str):
     completion = client.chat.completions.create(
@@ -32,6 +33,7 @@ def generate_response(prompt : str):
     )
     response = completion.choices[0].message.content
     print(response)
+    return response
 
 if __name__ == "__main__" :
     main()
