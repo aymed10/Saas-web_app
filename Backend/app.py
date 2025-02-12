@@ -1,10 +1,13 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from llm_api import generate_response
+import uvicorn
+import os
 
 app = FastAPI()
-MAX_INPUT_LENGTH = 32 
-# Allow all origins temporarily for testing (REMOVE "*" in production)
+MAX_INPUT_LENGTH = 32
+
+
 origins = [
     "http://localhost:3000",
     "http://127.0.0.1:3000",
@@ -31,12 +34,16 @@ async def log_request(request, call_next):
 @app.get("/generate_response")
 async def generate_response_api(prompt: str):
     validate_length_prompt(prompt)
-    response = generate_response(prompt)  
+    response = generate_response(prompt)
     return {"message": response}
     
 def validate_length_prompt(prompt: str):
-    if len(prompt) > MAX_INPUT_LENGTH:  
+    if len(prompt) >= MAX_INPUT_LENGTH:
         raise HTTPException(
             status_code=400,
-            detail=f"Input is too long. Must be under {MAX_INPUT_LENGTH} characters."
+            detail=f"Input is too long.Must be under 12 tokens"
         )
+    
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    uvicorn.run(app, host="0.0.0.0", port=port)

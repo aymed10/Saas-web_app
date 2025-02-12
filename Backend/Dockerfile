@@ -2,14 +2,11 @@ FROM python:3.12
 
 WORKDIR /app
 
-# Copy only requirements first (better for Docker caching)
-COPY requirements.txt .
+COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application files
-COPY . .
+ENV PORT=8080
+EXPOSE 8080
 
-EXPOSE 8000
-
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]

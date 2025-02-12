@@ -1,6 +1,6 @@
 export const fetchGeneratedText = async (prompt) => {
     try {
-      const apiUrl = `http://localhost:8000/generate_response?prompt=${encodeURIComponent(prompt)}`;
+      const apiUrl = `https://my-fastapi-app-164800509885.europe-west1.run.app/generate_response?prompt=${encodeURIComponent(prompt)}`;
       console.log(apiUrl)
       
       const response = await fetch(apiUrl, {

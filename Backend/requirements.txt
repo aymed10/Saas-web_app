@@ -2,3 +2,4 @@ fastapi
 openai
 argparse
 uvicorn
+google-cloud-secret-manager

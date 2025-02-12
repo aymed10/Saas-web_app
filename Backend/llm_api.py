@@ -1,9 +1,18 @@
 from openai import OpenAI
 import os
+from google.cloud import secretmanager
 import argparse
 
-client = OpenAI()
+
+def get_secret(secret_name):
+    project_id = os.getenv("GOOGLE_CLOUD_PROJECT")
+    client = secretmanager.SecretManagerServiceClient()
+    secret_path = f"projects/{project_id}/secrets/{secret_name}/versions/latest"
+    response = client.access_secret_version(request={"name": secret_path})
+    return response.payload.data.decode("UTF-8")
+
 api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=api_key)
 MAX_INPUT_LENGTH = 12
 def main():
     parser = argparse.ArgumentParser()
