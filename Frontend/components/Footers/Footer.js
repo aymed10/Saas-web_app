@@ -28,10 +28,10 @@ const Footer = () => {
                     </Link>
                   </div>
                   <p className="b1 desc-text">
-                    It has long been known that a reader's <br /> attention will
+                    It has long been known that a reader&apos;s <br /> attention will
                     be diverted from{" "}
                   </p>
-                  <h6 className="subtitle">Join a Newsletter</h6>
+                  <h6 className="subtitle">Abonnez-vous à notre newsletterr</h6>
                   <form className="newsletter-form" action="#">
                     <div className="form-group">
                       <input type="email" placeholder="Enter Your Email Here" />

@@ -7,7 +7,7 @@ import { useRouter, usePathname } from "next/navigation";
 
 import { useAppContext } from "@/context/Context";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/logo/Logo_IAF_white.png";
 import Nav from "./Nav";
 
 const Header = ({ headerTransparent, headerSticky, btnClass }) => {
@@ -51,9 +51,9 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                   <Image
                     className="logo-light"
                     src={logo}
-                    width={135}
-                    height={35}
-                    alt="ChatBot Logo"
+                    width={105}
+                    height={105}
+                    alt="IAF logo"
                   />
                 </Link>
               </div>
@@ -69,7 +69,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
               <div className="header-right">
                 <div className="header-btn">
                   <Link className={`${btnClass}`} href="/text-generator">
-                    <span>Get Start</span>
+                    <span>Commencez</span>
                   </Link>
                 </div>
 

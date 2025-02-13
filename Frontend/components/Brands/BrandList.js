@@ -5,12 +5,12 @@ import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 
-import brandImg1 from "../../public/images/brand/strapi.png";
-import brandImg2 from "../../public/images/brand/stenciljs.png";
-import brandImg3 from "../../public/images/brand/spotify.png";
-import brandImg4 from "../../public/images/brand/woocommerce.png";
-import brandImg5 from "../../public/images/brand/slack.png";
-import brandImg6 from "../../public/images/brand/mapbox.png";
+import brandImg1 from "../../public/images/brand/Logo_Credit_Agricol_Technologies_Services_transparent.png";
+import brandImg2 from "../../public/images/brand/Logo_CVEC_transparent.png";
+import brandImg3 from "../../public/images/brand/Logo_IAF_transparent.png";
+import brandImg4 from "../../public/images/brand/Logo_LISTIC_transparent.png";
+import brandImg5 from "../../public/images/brand/mapbox.png";
+import brandImg6 from "../../public/images/brand/Logo_Polytech_Annecy_Chambery.svg_transparent.png";
 
 const BrandList = () => {
   var settings = {

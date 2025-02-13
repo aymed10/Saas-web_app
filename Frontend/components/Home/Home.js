@@ -33,9 +33,11 @@ import BrandTwo from "../Brands/Brand-Two";
 import CtaTwo from "../CallToActions/Cta-Two";
 
 const Home = () => {
+  
   const [visibleIndex, setVisibleIndex] = useState(0);
   const [prompt, setPrompt] = useState("");
   const [loading, setLoading] = useState(false);
+  const [response, setResponse] = useState("");
 
   const handleSubmit = async () => {
     if (!prompt.trim()) {
@@ -44,15 +46,15 @@ const Home = () => {
     }
 
     setLoading(true);
+    setResponse("Génération en cours..."); //  Temporary loading message
 
     try {
-      const response = await fetchGeneratedText(prompt); // Use the API function
-      console.log("AI Response:", response["message"]);
-
-      // Navigate to text-generator page with the prompt
-      // router.push(`/text-generator?prompt=${encodeURIComponent(prompt)}`);
+      const apiResponse = await fetchGeneratedText(prompt); // Use the API function
+      console.log("AI Response:", apiResponse["message"]);
+      setResponse(apiResponse["message"]);
     } catch (error) {
       alert("Failed to get a response. Please try again.");
+      setResponse("Une erreur s'est produite. Veuillez réessayer.");
     } finally {
       setLoading(false);
     }
@@ -81,7 +83,7 @@ const Home = () => {
             <div className="col-lg-12">
               <div className="inner text-center mt--140">
                 <h1 className="title display-one">
-                  Examine the Potential of
+                Ingénieur-e Au Féminin
                   <br />{" "}
                   <span className="header-caption">
                     <span className="cd-headline rotate-1">
@@ -93,7 +95,7 @@ const Home = () => {
                               : "is-hidden theme-gradient"
                           }
                         >
-                          AI Chating
+                          &nbsp;&nbsp;&nbsp;&nbsp;Avenir
                         </b>
                         <b
                           className={
@@ -102,7 +104,7 @@ const Home = () => {
                               : "is-hidden theme-gradient"
                           }
                         >
-                          AI Writing
+                          Égalitaire
                         </b>
                         <b
                           className={
@@ -111,15 +113,15 @@ const Home = () => {
                               : "is-hidden theme-gradient"
                           }
                         >
-                          AI Chating
+                          Inspiration 
                         </b>
                       </span>
                     </span>
                   </span>{" "}
-                  AI Hack
+                  {/* &nbsp;AI Hack */}
                 </h1>
                 <p className="description">
-                  Unleash Brainwave&apos;s AI potential. Use the open AI <br />{" "}
+                  Ingénieure au Féminin encourage les jeunes filles à explorer les carrières scientifiques et techniques <br />{" "}
                   conversation app Rainbow theme
                 </p>
 
@@ -129,12 +131,17 @@ const Home = () => {
                     id="slider-text-area"
                     cols="30"
                     rows="2"
-                    placeholder="Enter a prompt, for example: a fundraising deck to a mobile finance app called Intuitive"
+                    placeholder="Comment puis-je vous aider à en savoir plus sur l'association Ingénieure au Féminin ?"
                     value={prompt}
                     onChange={(e) => setPrompt(e.target.value)}
                   ></textarea>
+                  
+                  {/* <Link className="btn-default " href="/text-generator">
+                    Demandez-moi !
+                  </Link> */}
+
                   <button className="btn-default " onClick={handleSubmit} disabled={loading}>
-                    Start with AI
+                    {loading ? "En cours..." : "Demandez-moi !"}
                   </button>
                 </div>
 
@@ -170,15 +177,13 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            {/* Chatbot Response Box */}
             <div className="col-lg-11 col-xl-11 justify-content-center">
-              <div className="slider-frame">
-                <Image
-                  className="slider-image-effect"
-                  src={bannerImg}
-                  width={1055}
-                  height={898}
-                  alt="Banner Images"
-                />
+              <div className="chatbox-frame">
+                <div className="chatbox">
+                  {/* <p>{response}</p> */}
+                  <p>Test okkkk</p>
+                </div>
               </div>
             </div>
           </div>
@@ -213,7 +218,7 @@ const Home = () => {
                 data-sal-delay="100"
               >
                 <p className="b1 mb--0 small-title">
-                  truest 800,000+ HIGHLY PRODUCTIVE Company
+                Soutenus par des partenaires engagés, nous œuvrons ensemble pour un avenir plus égalitaire dans l’ingénierie
                 </p>
               </div>
             </div>
@@ -265,7 +270,7 @@ const Home = () => {
                   <span className="theme-gradient">Assisting individuals</span>
                 </h4>
                 <h2 className="title mb--60">
-                  Chat Smarter, Not <br /> Harder with
+                  Nos Événements Passés
                 </h2>
               </div>
             </div>
@@ -285,7 +290,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rainbow-collobration-area rainbow-section-gap-big">
+      {/* <div className="rainbow-collobration-area rainbow-section-gap-big">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -335,7 +340,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="rainbow-rn-cta">
         <div className="container">
@@ -343,7 +348,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="aiwave-pricing-area wrapper rainbow-section-gap-big">
+      {/* <div className="aiwave-pricing-area wrapper rainbow-section-gap-big">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -403,7 +408,7 @@ const Home = () => {
             gap="mt_dec--40"
           />
         </div>
-      </div>
+      </div> */}
 
       <div className="aiwave-service-area rainbow-section-gap">
         <div className="container">
@@ -424,9 +429,9 @@ const Home = () => {
                 data-sal-delay="150"
               >
                 <h4 className="subtitle">
-                  <span className="theme-gradient">Assisting individuals</span>
+                  <span className="theme-gradient">Accompagner et inspirer les futures ingénieures</span>
                 </h4>
-                <h2 className="title mb--60">The opinions of the community</h2>
+                <h2 className="title mb--60">Les témoignages de notre communauté</h2>
               </div>
             </div>
           </div>
@@ -461,7 +466,7 @@ const Home = () => {
                     <i className="fa-sharp fa-solid fa-star"></i>
                   </a>
                 </div>
-                <p className="subtitle mb--0">Based on 20,000+ reviews on</p>
+                <p className="subtitle mb--0">Basé sur plus de 1 000 avis sur</p>
               </div>
             </div>
           </div>
