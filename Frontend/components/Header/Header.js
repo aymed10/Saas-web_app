@@ -51,8 +51,8 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
                   <Image
                     className="logo-light"
                     src={logo}
-                    width={105}
-                    height={105}
+                    width={150}
+                    height={180}
                     alt="IAF logo"
                   />
                 </Link>
@@ -69,7 +69,7 @@ const Header = ({ headerTransparent, headerSticky, btnClass }) => {
               <div className="header-right">
                 <div className="header-btn">
                   <Link className={`${btnClass}`} href="/text-generator">
-                    <span>Commencez</span>
+                    <span>Chatbot</span>
                   </Link>
                 </div>
 

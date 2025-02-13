@@ -4,7 +4,7 @@ import React from "react";
 
 import FooterData from "../../data/footer.json";
 
-import logo from "../../public/images/logo/logo.png";
+import logo from "../../public/images/logo/Logo_IAF_white.png";
 import FooterProps from "./FooterProps";
 
 const Footer = () => {
@@ -27,10 +27,7 @@ const Footer = () => {
                       />
                     </Link>
                   </div>
-                  <p className="b1 desc-text">
-                    It has long been known that a reader&apos;s <br /> attention will
-                    be diverted from{" "}
-                  </p>
+                  
                   <h6 className="subtitle">Abonnez-vous à notre newsletterr</h6>
                   <form className="newsletter-form" action="#">
                     <div className="form-group">
@@ -46,23 +43,9 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="col-lg-2 col-md-6 col-sm-6 col-12">
-                {FooterData &&
-                  FooterData.footer.map((data, index) => (
-                    <div className="rainbow-footer-widget" key={index}>
-                      <FooterProps list={data.links} />
-                    </div>
-                  ))}
-              </div>
+              
 
-              <div className="col-lg-2 col-md-6 col-sm-6 col-12">
-                {FooterData &&
-                  FooterData.footer.map((data, index) => (
-                    <div className="rainbow-footer-widget" key={index}>
-                      <FooterProps list={data.services} />
-                    </div>
-                  ))}
-              </div>
+              
 
               <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                 {FooterData &&

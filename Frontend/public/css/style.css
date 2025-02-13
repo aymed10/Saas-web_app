@@ -8875,23 +8875,3 @@ button.btn-transparent:hover::after {
 }
 
 /*# sourceMappingURL=style.css.map */
-.chatbox {
-  border: 2px solid #007BFF;
-  border-radius: 10px;
-  padding: 20px;
-  min-height: 80px;
-  background-color: #f0f4f7;
-  color: #333;
-  font-size: 1.2em;
-  transition: all 0.3s ease;
-}
-
-.loading-text {
-  color: #ffa500;
-  font-style: italic;
-}
-
-.response-text {
-  color: #028402;
-  font-weight: bold;
-}

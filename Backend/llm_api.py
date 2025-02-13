@@ -6,6 +6,8 @@ import argparse
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
+import random
+import requests
 
 def get_secret(secret_name):
     project_id = os.getenv("GOOGLE_CLOUD_PROJECT")
@@ -64,3 +66,4 @@ def generate_response(prompt : str):
     response = completion.choices[0].message.content
     print(response)
     return response
+

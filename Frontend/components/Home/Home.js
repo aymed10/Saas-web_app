@@ -121,9 +121,31 @@ const Home = () => {
                   {/* &nbsp;AI Hack */}
                 </h1>
                 <p className="description">
-                  Ingénieure au Féminin encourage les jeunes filles à explorer les carrières scientifiques et techniques <br />{" "}
-                  conversation app Rainbow theme
+                  Créée en 2021, cette association a pour but de promouvoir l’égalité femme-homme dans le milieu ingénieur et les études scientifiques<br />{" "}
                 </p>
+
+                <div className="rainbow-service-area rainbow-section-gap rainbow-section-gapBottom-big">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-lg-12">
+                      <div
+                        className="section-title text-left"
+                        data-sal="slide-up"
+                        data-sal-duration="400"
+                        data-sal-delay="150"
+                      >
+                        {/* <h4 className="subtitle">
+                          <span className="theme-gradient">Events</span>
+                        </h4> */}
+                        <h2 className="title mb--60">
+                          Nos Événements Passés
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <ServiceStyleOne />
+              </div>
 
                 <div className="form-group">
                   <textarea
@@ -259,7 +281,7 @@ const Home = () => {
                 data-sal-delay="100"
               >
                 <p className="b1 mb--0 small-title">
-                Soutenus par des partenaires engagés, nous œuvrons ensemble pour un avenir plus égalitaire dans l’ingénierie
+                  Soutenus par des partenaires engagés, nous œuvrons ensemble pour un avenir plus égalitaire dans l’ingénierie
                 </p>
               </div>
             </div>
@@ -272,7 +294,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="rainbow-service-area rainbow-section-gap">
+      {/* <div className="rainbow-service-area rainbow-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -295,32 +317,9 @@ const Home = () => {
           </div>
           <TabStyleOne />
         </div>
-      </div>
+      </div> */}
 
-      <div className="rainbow-service-area rainbow-section-gap rainbow-section-gapBottom-big">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div
-                className="section-title text-left"
-                data-sal="slide-up"
-                data-sal-duration="400"
-                data-sal-delay="150"
-              >
-                <h4 className="subtitle">
-                  <span className="theme-gradient">Assisting individuals</span>
-                </h4>
-                <h2 className="title mb--60">
-                  Nos Événements Passés
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <ServiceStyleOne />
-      </div>
-
-      <div className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big">
+      {/* <div className="rainbow-advance-tab-area aiwave-bg-gradient rainbow-section-gap-big">
         <div className="container">
           <div className="html-tabs" data-tabs="true">
             <AdvanceTab />
@@ -329,7 +328,7 @@ const Home = () => {
         <div className="bg-shape">
           <Image src={bgShape} width={630} height={879} alt="Bg Shape" />
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="rainbow-collobration-area rainbow-section-gap-big">
         <div className="container">
@@ -383,11 +382,11 @@ const Home = () => {
         </div>
       </div> */}
 
-      <div className="rainbow-rn-cta">
+      {/* <div className="rainbow-rn-cta">
         <div className="container">
           <CtaOne />
         </div>
-      </div>
+      </div> */}
 
       {/* <div className="aiwave-pricing-area wrapper rainbow-section-gap-big">
         <div className="container">
@@ -451,15 +450,15 @@ const Home = () => {
         </div>
       </div> */}
 
-      <div className="aiwave-service-area rainbow-section-gap">
+      {/* <div className="aiwave-service-area rainbow-section-gap">
         <div className="container">
           <div className="row row--15 service-wrapper">
             <ServiceTwo />
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="rainbow-testimonial-area rainbow-section-gap">
+      {/* <div className="rainbow-testimonial-area rainbow-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -478,9 +477,9 @@ const Home = () => {
           </div>
         </div>
         <Testimonial />
-      </div>
+      </div> */}
 
-      <div className="rainbow-brand-area rainbow-section-gap">
+      {/* <div className="rainbow-brand-area rainbow-section-gap">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -521,7 +520,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="rainbow-cta-area rainbow-section-gap rainbow-section-gapBottom-big">
         <div className="container">

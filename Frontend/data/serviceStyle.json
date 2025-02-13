@@ -1,35 +1,80 @@
 {
   "serviceOne": [
-    {
-      "img": "/images/icons/service-icon-01.svg",
-      "title": "Ask anything",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-02.svg",
-      "title": "Connect everywhere",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-03.svg",
-      "title": "Fast responding",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-01.svg",
-      "title": "Ask anything",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-02.svg",
-      "title": "Connect everywhere",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    },
-    {
-      "img": "/images/icons/service-icon-03.svg",
-      "title": "Fast responding",
-      "desc": "Lets users quickly find answers to their questions without having to search through multiple sources."
-    }
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Visite de l'Institut National de l'Energie Solaire (INES)",
+  "description": "Organisée par Ingénieur-e Au Féminin pour les élèves du lycée Gaspard Monge. Une présentation des métiers de la recherche avec plusieurs intervenantes comme Manon Girerd, Esther Machlein et Monika Woloszyn. Le laboratoire LOCIE a été visité pour découvrir leurs thèmes de recherche."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Ciné-Débat – Soirée Décontractée",
+  "description": "Diffusion du film \"Une Femme d'Exception\", suivi d'un débat sur la place des femmes dans des métiers d'hommes et l'égalité des genres. Date : Mardi 18 février, 18h, à l'Amphi H001 de l'IUT – Campus Annecy."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Exposition - Veuillez Rendre à Cléopâtre",
+  "description": "Exposition présentant les portraits de femmes dont les recherches scientifiques ont été oubliées ou volées, dans le cadre de la semaine Plus d'Égalité. Date : Mardi 25 février, de 11h30 à 13h30, au hall de Polytech Annecy."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Afterwork à Charly's Pub Chambéry",
+  "description": "Rencontre avec les membres de l'association IAF le 19 décembre 2024, à partir de 18h."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Présentation au lycée Saint Michel",
+  "description": "Présentation pour @ellesbougent, animée par Julie et Emma, le 4 décembre 2024."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Conférence – La mixité des genres (CA-TS x IAF)",
+  "description": "Conférence organisée par IAF et Crédit Agricole Technologies et Services, le 7 novembre 2024, à Polytech Annecy. Sujet abordé : La place des femmes dans le domaine de l'informatique, l'inclusivité et la mixité en entreprise, et la formation Informatique Données et Usages (IDU) à Polytech."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Hackathon IAF",
+  "description": "Le 13 février 2025 à Polytech Annecy, avec des équipes de 4 à 6 personnes pour travailler sur un projet en développement web. Inscription via le lien dans les stories de l'Instagram IAF."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Concours \"La mixité des genres\" – Conférence",
+  "description": "Discussions sur les défis et opportunités des femmes dans le secteur technologique, le 7 novembre 2024 à Polytech Annecy, de 14h à 16h."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Afterwork – Journée des femmes",
+  "description": "Vente de croque-monsieur à Charly's Pub le 8 mars, de 18h30 à 21h, avec les profits versés à l'association \"Toutes à l'école\"."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Table ronde avec les lycées Louis Armand et L'Albanais",
+  "description": "Journée dédiée à la découverte du métier d'ingénieur et des échanges sur la place de la femme dans l'industrie, à Polytech Chambéry."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Concours Égalité du réseau Polytech",
+  "description": "Vote pour soutenir l'affiche préférée de Polytech Annecy-Chambéry dans le cadre du concours égalité du réseau Polytech."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Festival Plus d'Égalité",
+  "description": "Conférence sur la place de la femme dans l'industrie et la construction, avec la participation de professionnelles du secteur. Date : Jeudi 15 février 2024, sur le site de Polytech Chambéry."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Portes Ouvertes",
+  "description": "Rencontres sur les stands de Polytech Annecy et Chambéry."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Concours de sensibilisation",
+  "description": "Concours visant à sensibiliser les lycéennes sur les métiers d'ingénieurE, avec des équipes de 5 étudiants de chaque école du réseau Polytech."
+  },
+  {
+  "img": "/images/service/service-icon-01.png",
+  "title": "Concours de logo pour IAF",
+  "description": "Recherche de logo pour représenter l'association, avec soumission des logos avant le 11 novembre."
+  }
   ],
   "serviceTwo": [
     {

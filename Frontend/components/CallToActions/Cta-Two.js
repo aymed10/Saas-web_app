@@ -30,16 +30,16 @@ const CtaTwo = () => {
                 >
                   <h4 className="subtitle">
                     <span className="theme-gradient">
-                      Get Started with Rainbow
+                      Suivez-nous !
                     </span>
                   </h4>
                   <h2 className="title w-600 mb--20">
-                    Experience Products in AI
+                     Restons connectés !
                   </h2>
                   <p className="description b1">
-                    Based on the conversation with the AI chatbot, you will
-                    receive <br />
-                    personalized recommendations.
+                    Suivez nos actualités et initiatives 
+                     <br />
+                    pour promouvoir les femmes dans l’ingénierie !
                   </p>
                 </div>
                 <div className="app-store-btn">

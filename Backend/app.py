@@ -74,6 +74,7 @@ def chat_with_bot(request: ChatRequest):
         return {"response": response}
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e))
+    
 
 # Health Check
 @app.get("/")

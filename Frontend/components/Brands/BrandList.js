@@ -5,12 +5,12 @@ import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 
-import brandImg1 from "../../public/images/brand/Logo_Credit_Agricol_Technologies_Services_transparent.png";
-import brandImg2 from "../../public/images/brand/Logo_CVEC_transparent.png";
-import brandImg3 from "../../public/images/brand/Logo_IAF_transparent.png";
-import brandImg4 from "../../public/images/brand/Logo_LISTIC_transparent.png";
-import brandImg5 from "../../public/images/brand/mapbox.png";
-import brandImg6 from "../../public/images/brand/Logo_Polytech_Annecy_Chambery.svg_transparent.png";
+import brandImg1 from "../../public/images/brand/annecy.png";
+import brandImg2 from "../../public/images/brand/cevec.png";
+import brandImg3 from "../../public/images/brand/cred.png";
+import brandImg4 from "../../public/images/brand/Logo_LISTIC-removebg-preview.png";
+import brandImg5 from "../../public/images/brand/Logo_Polytech_Annecy_Chambery.svg-removebg-preview.png";
+import brandImg6 from "../../public/images/brand/Logo_Sopra_Steria-removebg-preview.png";
 
 const BrandList = () => {
   var settings = {
@@ -73,17 +73,17 @@ const BrandList = () => {
         className="brand-list brand-style-2 slider-brand slider-brand-activation"
       >
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="https://www.annecy.fr/">
             <Image
               src={brandImg1}
-              width={132}
+              width={500}
               height="auto"
               alt="Brand Image"
             />
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="https://cvec.etudiant.gouv.fr/">
             <Image
               src={brandImg2}
               width={132}
@@ -93,40 +93,40 @@ const BrandList = () => {
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="https://www.credit-agricole.fr/">
             <Image
               src={brandImg3}
-              width={110}
+              width={300}
               height="auto"
               alt="Brand Image"
             />
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="https://www.univ-smb.fr/listic/">
             <Image
               src={brandImg4}
-              width={165}
+              width={125}
               height="auto"
               alt="Brand Image"
             />
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="https://www.univ-smb.fr/polytech/">
             <Image
               src={brandImg5}
-              width={132}
+              width={182}
               height="auto"
               alt="Brand Image"
             />
           </Link>
         </li>
         <li className="slide-single-layout">
-          <Link href="#">
+          <Link href="https://www.soprasteria.fr/">
             <Image
               src={brandImg6}
-              width={151}
+              width={120}
               height="auto"
               alt="Brand Image"
             />
