@@ -1,14 +1,16 @@
 export const fetchGeneratedText = async (prompt) => {
     try {
-      const apiUrl = `https://my-fastapi-app-164800509885.europe-west1.run.app/generate_response?prompt=${encodeURIComponent(prompt)}`;
+      const apiUrl = `http://localhost:8000/chatbot`;
       console.log(apiUrl)
       
       const response = await fetch(apiUrl, {
-        method: "GET", 
+        method: "POST", 
         headers: {
             "Content-Type": "application/json",
             "Accept": "application/json",
         },
+
+        body: JSON.stringify({ message: prompt })
       });
       
       if (!response.ok) {

@@ -1,0 +1,222 @@
+{
+    "association": {
+      "nom": "Ingénieure au Féminin (IAF)",
+      "description": "Association étudiante de Polytech Annecy-Chambéry visant à promouvoir les métiers d'ingénieures auprès des lycéennes, collégiennes et élèves de primaire.",
+      "liens_sociaux": {
+        "instagram": "https://www.instagram.com/iaf_7374/",
+        "linkedin": "https://www.linkedin.com/company/ing%C3%A9nieur-e-au-f%C3%A9minin/posts/?feedView=articles",
+        "facebook": "https://www.facebook.com/ingenieureaufeminin/"
+      },
+      "mandats": ["2023-2024", "2024-2025"],
+      "secteur": "Services d'ingénierie",
+      "taille": "11-50 employés",
+      "siège_social": "Annecy-le-Vieux, Auvergne-Rhône-Alpes",
+      "fondation": "2021",
+      "équipe": {
+        "Annecy": {
+          "présidente": "Emma Rechon-Reguet",
+          "secrétaire": "Alyssa Belleville",
+          "trésorière": "Louna Camas",
+          "responsable_communication": "Cyprien Guitton"
+        },
+        "Chambéry": {
+          "vice-présidente": "Julie Fabre",
+          "responsables_conférences": [
+            "Carla Marie Da Silva",
+            "Juliette Lompret-Bryck"
+          ]
+        }
+      }
+    },
+  
+    "événements": [
+      {
+        "titre": "Rencontre Ingénieure au Féminin",
+        "date": "15 février 2024",
+        "lieu": "Campus du Bourget-du-Lac",
+        "description": "Rencontre avec 60 élèves pour promouvoir les carrières d'ingénieures et déconstruire les stéréotypes de genre.",
+        "intervenants": [
+          "Sophie Pauchon (Spie Batignolles)",
+          "Mathilde Trinel (Eiffage Construction)",
+          "Aziliz Dupont (Bee Engineering)",
+          "Maud Le Fol (Implenia)"
+        ],
+        "activités": [
+          "Table ronde",
+          "Ateliers scientifiques sur l'écologie industrielle, les matériaux bio et géo-sourcés",
+          "Conférence dans le cadre du festival Plus d'Égalité"
+        ]
+      },
+      {
+        "titre": "Conférence Ingénieure au Féminin",
+        "date": "19 mars 2022",
+        "lieu": "Polytech Annecy",
+        "intervenants": [
+          "Delphine Cabaton (Thales Angénieux)",
+          "Sandrine Beguet (EUROTAB)"
+        ],
+        "témoignages_étudiants": [
+          "Estelle Cabaton",
+          "Jade Hurel"
+        ],
+        "messages_clés": [
+          "Les compétences et la curiosité sont essentielles",
+          "Faire sa place avec ses compétences et sa personnalité",
+          "Ne jamais abandonner ses rêves"
+        ]
+      },
+      {
+        "titre": "Journée de la Recherche",
+        "date": "21 janvier 2025",
+        "lieu": "Campus du Bourget-du-Lac",
+        "description": "Découverte des métiers de la recherche pour les lycéennes du lycée Gaspard Monge.",
+        "intervenants": [
+          "Manon Girerd (doctorante)",
+          "Esther Machlein (ingénieure d'étude)",
+          "Monika Woloszyn (professeure)"
+        ],
+        "sujets": [
+          "Énergie solaire",
+          "Qualité de l'air",
+          "Projet Dromotherm"
+        ]
+      },
+      {
+        "titre": "Hackathon IAF",
+        "date": "13 février 2025",
+        "lieu": "Polytech Annecy",
+        "description": "Hackathon en équipes de 4 à 6 personnes sur le développement web.",
+        "inscription": "Inscription via stories Instagram IAF"
+      }
+    ],
+  
+    "événements_instagram": [
+      {
+        "événement": "Visite de l'INES",
+        "description": "Présentation des métiers de la recherche.",
+        "date": "Non spécifiée",
+        "lien": "https://www.instagram.com/iaf_7374"
+      },
+      {
+        "événement": "Ciné-Débat",
+        "description": "Projection du film 'Une Femme d'Exception' suivie d'un débat sur la place des femmes dans l'industrie.",
+        "date": "18 février",
+        "lien": "https://www.instagram.com/iaf_7374"
+      },
+      {
+        "événement": "Exposition 'Veuillez Rendre à Cléopâtre'",
+        "description": "Exposition sur les femmes scientifiques oubliées.",
+        "date": "25 février",
+        "lien": "https://www.instagram.com/iaf_7374"
+      },
+      {
+        "événement": "Afterwork Charly's Pub",
+        "description": "Rencontre informelle avec les membres.",
+        "date": "19 décembre 2024",
+        "lien": "https://www.instagram.com/iaf_7374"
+      }
+    ],
+  
+    "témoignages": [
+      {
+        "nom": "Julie Fabre",
+        "rôle": "Vice-présidente",
+        "message": "Je me suis engagée comme marraine étudiante dans des associations comme Elles Bougent. Alors, quand il a été question de reprendre l'association Ingénieure au Féminin, je n'ai pas hésité !"
+      },
+      {
+        "nom": "Emma Rechon-Reguet",
+        "rôle": "Présidente",
+        "message": "À toutes les lycéennes et collégiennes : n'enlevez pas les sciences ! Même si un professeur vous dit que vous n'y arriverez pas, croyez en vous et donnez-vous les moyens d'y arriver."
+      }
+    ],
+  
+    "réalisations": [
+      {
+        "prix": "Prix de l'engagement étudiant",
+        "organisation": "Concours Ingénieuses",
+        "année": "2024",
+        "lauréates": [
+          "Emma Rechon-Reguet",
+          "Julie Fabre"
+        ],
+        "description": "Distinction pour les actions menées en faveur de la mixité dans les métiers d'ingénieur."
+      }
+    ],
+  
+    "projets_futurs": [
+      {
+        "projet": "Nouvelles interventions en primaire",
+        "objectif": "Sensibiliser les plus jeunes aux métiers d'ingénieur."
+      },
+      {
+        "projet": "Réaliser des vidéos de présentation",
+        "objectif": "Montrer des témoignages inspirants de femmes ingénieures."
+      },
+      {
+        "projet": "Explorer de nouveaux concepts",
+        "objectif": "Développer des activités pour toucher un public plus large."
+      }
+    ],
+  
+    "statistiques": {
+      "PEIP": {
+        "promo_2022_2024": "19%",
+        "promo_2023_2025": "25%",
+        "promo_2024_2026": "14%"
+      },
+      "cycle_ingénieur": {
+        "promo_2021_2023": "24%",
+        "promo_2022_2024": "26%",
+        "promo_2023_2025": "24%",
+        "promo_2024_2026": "19%"
+      },
+      "spécialisations": {
+        "MP": "7%",
+        "MECA (FISE+FSA)": "15%",
+        "SNI": "18%",
+        "PEIP Annecy": "16%",
+        "PEIP Chambéry": "22%",
+        "MC": "19%",
+        "BAT (FISE+FSA)": "29%",
+        "IDU": "29%",
+        "EIT": "42%"
+      },
+      "global": "22% de filles à Polytech Annecy-Chambéry en 2024-2025"
+    },
+  
+    "questions_et_réponses": [
+      {
+        "question": "Quelle est la mission de l'association Ingénieure au Féminin ?",
+        "réponse": "L'association vise à promouvoir les métiers d'ingénieur auprès des jeunes filles, en déconstruisant les stéréotypes de genre dans les études scientifiques."
+      },
+      {
+        "question": "Quels sont les principaux événements organisés par l'association ?",
+        "réponse": "L'association organise des conférences, des visites de sites industriels, des interventions dans les lycées et collèges, des hackathons et des événements comme des ciné-débats."
+      },
+      {
+        "question": "Comment suivre les actualités de l'association ?",
+        "réponse": "Vous pouvez suivre l'association sur Instagram (@iaf_7374), LinkedIn (Ingénieur.e Au Féminin) et Facebook (Ingénieur-e au féminin | Annecy-le-Vieux)."
+      },
+      {
+        "question": "Comment participer aux événements de l'association ?",
+        "réponse": "Les inscriptions sont souvent ouvertes via les stories Instagram et les publications sur LinkedIn et Facebook."
+      },
+      {
+        "question": "Quels sont les projets futurs de l'association ?",
+        "réponse": "L'association prévoit d'organiser de nouvelles interventions dans les écoles primaires, de créer des vidéos de présentation de femmes ingénieures et d'explorer de nouvelles initiatives pour sensibiliser davantage de jeunes."
+      }
+    ],
+  
+    "actions": [
+      "Organisation de conférences et tables rondes",
+      "Interventions dans les collèges et lycées",
+      "Animation d'ateliers scientifiques",
+      "Organisation de hackathons",
+      "Gestion de stands lors des journées portes ouvertes",
+      "Création et animation de contenus sur les réseaux sociaux",
+      "Partenariats avec d'autres associations et entreprises",
+      "Promotion de la mixité et de l'égalité professionnelle dans les métiers d'ingénieur"
+    ]
+  }
+  
+  

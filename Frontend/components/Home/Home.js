@@ -50,8 +50,8 @@ const Home = () => {
 
     try {
       const apiResponse = await fetchGeneratedText(prompt); // Use the API function
-      console.log("AI Response:", apiResponse["message"]);
-      setResponse(apiResponse["message"]);
+      console.log("AI Response:", apiResponse["response"]);
+      setResponse(apiResponse["response"]);
     } catch (error) {
       alert("Failed to get a response. Please try again.");
       setResponse("Une erreur s'est produite. Veuillez réessayer.");
@@ -179,12 +179,53 @@ const Home = () => {
             </div>
             {/* Chatbot Response Box */}
             <div className="col-lg-11 col-xl-11 justify-content-center">
-              <div className="chatbox-frame">
-                <div className="chatbox">
-                  {/* <p>{response}</p> */}
-                  <p>Test okkkk</p>
-                </div>
+              <div style={{
+                border: '2px solid #6C63FF', 
+                borderRadius: '10px',
+                padding: '15px',
+                marginTop: '20px',
+                minHeight: '100px',
+                backgroundColor: '#1E1E2F', 
+                color: '#FFFFFF',
+                fontSize: '18px',
+                fontFamily: 'Poppins, sans-serif',
+                textAlign: 'left',
+                wordWrap: 'break-word',
+                boxShadow: '0 0 15px rgba(108, 99, 255, 0.5)',
+                lineHeight: '1.6',
+                whiteSpace: 'pre-wrap'
+              }}>
+                {loading ? (
+                  <p style={{ fontStyle: 'italic' }}>⏳ Génération en cours...</p>
+                ) : (
+                  <p>
+                    {response.replace(/\*\*/g, '').replace(/###/g, '').replace(/-/g, '•')}
+                  </p>
+                )}
+
+                {/* Clear Button */}
+                {response && (
+                  <button 
+                    onClick={() => setResponse('')}
+                    style={{
+                      marginTop: '10px',
+                      padding: '10px 15px',
+                      backgroundColor: '#6C63FF',
+                      border: 'none',
+                      borderRadius: '5px',
+                      color: '#fff',
+                      cursor: 'pointer',
+                      transition: 'background-color 0.3s ease',
+                      fontWeight: 'bold'
+                    }}
+                    onMouseOver={(e) => e.target.style.backgroundColor = '#554de3'}
+                    onMouseOut={(e) => e.target.style.backgroundColor = '#6C63FF'}
+                  >
+                    🧹 Effacer
+                  </button>
+                )}
               </div>
+
             </div>
           </div>
         </div>
